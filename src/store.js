@@ -10,7 +10,8 @@ let movieSlice = createSlice({
   reducers: {
     setMovies(state, action) {
       state.movies = action.payload;
-      state.filteredMovies = action.payload;
+      // state.filteredMovies = action.payload;
+      console.log(state.movies)
     },
     filterMovies(state, action) {
       // console.log(filterMovies)
